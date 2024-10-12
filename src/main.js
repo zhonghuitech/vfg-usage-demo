@@ -22,6 +22,7 @@ app.component("svg-icon", SvgIcon);
 app.component("draggable", VueDraggableNext);
 app.component("draggable-warp", DraggableWarp);
 app.component("option-input", OptionInput);
+import 'virtual:svg-icons-register'
 Object.keys(ElIcon).forEach((key) => {
     app.component(key, ElIcon[key])
 })
