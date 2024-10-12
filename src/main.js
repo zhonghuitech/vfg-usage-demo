@@ -10,6 +10,7 @@ import hljs from 'highlight.js';
 import 'highlight.js/styles/googlecode.css' //样式文件
 
 import { VFG, SvgIcon, DraggableWarp, OptionInput, UploadWarp } from "vfg"
+import 'vfg/dist/style.css';
 
 const app = createApp(App);
 app.use(ElementPlus, {
