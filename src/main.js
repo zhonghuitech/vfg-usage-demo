@@ -12,7 +12,7 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn';
 import hljs from 'highlight.js';
 import 'highlight.js/styles/googlecode.css' //样式文件
 
-import { VFG } from "vfg"
+import { VFG, SvgIcon } from "vfg"
 
 const app = createApp(App);
 app.use(ElementPlus, {
@@ -20,6 +20,7 @@ app.use(ElementPlus, {
 });
 
 app.use(VFG)
+app.component("svg-icon", SvgIcon);
 app.component("draggable", VueDraggableNext);
 app.component("draggable-warp", DraggableWarp);
 app.component("option-input", OptionInput);
