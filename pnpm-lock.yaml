@@ -15,8 +15,8 @@ importers:
         specifier: ^2.8.5
         version: 2.8.5(vue@3.5.12)
       vfg:
-        specifier: ^0.0.3
-        version: 0.0.3(sortablejs@1.15.3)
+        specifier: ^0.0.4
+        version: 0.0.4(sortablejs@1.15.3)
       vue:
         specifier: ^3.5.10
         version: 3.5.12
@@ -797,8 +797,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  vfg@0.0.3:
-    resolution: {integrity: sha512-EX39U9h4SQI0ToihA3jtFjcXD/qb/xAQelqlwspU9W7FZ8N1kF1MRxK/5EqTppYhugx2ABw02yHok+D94BDm9g==}
+  vfg@0.0.4:
+    resolution: {integrity: sha512-oFp51qRlEfcSpcYeU4u5BjYL9JJhtOAtEkoYC4xJmdQfVQxWN70NBa6KLJYQCNWzUS9AGr6r90PsBp2uGLmmYQ==}
 
   vite@5.4.8:
     resolution: {integrity: sha512-FqrItQ4DT1NC4zCUqMB4c4AZORMKIa0m8/URVCZ77OZ/QSNeJ54bU1vrFADbDsuwfIPcgknRkmqakQcgnL4GiQ==}
@@ -1554,7 +1554,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  vfg@0.0.3(sortablejs@1.15.3):
+  vfg@0.0.4(sortablejs@1.15.3):
     dependencies:
       '@element-plus/icons-vue': 2.3.1(vue@3.5.12)
       axios: 1.7.7
