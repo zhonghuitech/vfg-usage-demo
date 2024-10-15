@@ -18,8 +18,8 @@ importers:
         specifier: ^11.10.0
         version: 11.10.0
       vfg:
-        specifier: ^0.0.5
-        version: 0.0.5(@types/sortablejs@1.15.8)
+        specifier: ^0.0.6
+        version: 0.0.6(@types/sortablejs@1.15.8)
       vue:
         specifier: ^3.5.10
         version: 3.5.12
@@ -1682,8 +1682,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vfg@0.0.5:
-    resolution: {integrity: sha512-ObDlZxlx0+AjtizdfBb0lRInbLbV9HKV3svv0jxtsxcg3MPCxbBwcd9Obf3bg/wHijCNK6QJvfmUol/VS9KpmA==}
+  vfg@0.0.6:
+    resolution: {integrity: sha512-0vpfUoK7n0ZyLUTpq5wUtYauVol3QEX1bdZM7liSaZHFJqSSi2LPEL6qT1JSdL/I5+9e2edlDC6tdkBh8qr6ng==}
 
   vite-plugin-svg-icons@2.0.1:
     resolution: {integrity: sha512-6ktD+DhV6Rz3VtedYvBKKVA2eXF+sAQVaKkKLDSqGUfnhqXl3bj5PPkVTl3VexfTuZy66PmINi8Q6eFnVfRUmA==}
@@ -3516,7 +3516,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vfg@0.0.5(@types/sortablejs@1.15.8):
+  vfg@0.0.6(@types/sortablejs@1.15.8):
     dependencies:
       '@element-plus/icons-vue': 2.3.1(vue@3.5.12)
       axios: 1.7.7
