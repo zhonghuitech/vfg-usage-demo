@@ -2,7 +2,8 @@
   <div>
     <!-- <div style="margin-bottom: 20px;"><span>good</span>
       <svg-icon icon-class="starship" />
-    </div> 
+      <svg-icon icon-class="card" />
+    </div>
     <el-divider /> -->
     <FormGenerator device="pc" />
     <!-- <DemoButton size="large" type="primary">我是测试组件</DemoButton>
