@@ -15,8 +15,8 @@ importers:
         specifier: ^2.8.5
         version: 2.8.5(vue@3.5.12)
       vfg:
-        specifier: ^0.0.8
-        version: 0.0.8(@lezer/common@1.2.2)(@types/sortablejs@1.15.8)
+        specifier: ^0.0.11
+        version: 0.0.11(@lezer/common@1.2.2)(@types/sortablejs@1.15.8)
       vue:
         specifier: ^3.5.10
         version: 3.5.12
@@ -1749,8 +1749,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vfg@0.0.8:
-    resolution: {integrity: sha512-xFUSn9Y0Hj0KCY6FmsMb5fXz+fjhLJuYUw8bKqn8bxy87fhYG09YOriHu1xYBGMk8V9la3j/e/mEmEnBTRBH9g==}
+  vfg@0.0.11:
+    resolution: {integrity: sha512-84OrX6nWfpENUDdhF/8Zt9gBR8YIz7LhAY2fERYRoSJRngj0aLhFTCDuglyIt2zbTUIoHolp1qtcIi6Ocx/w0Q==}
 
   vite-plugin-svg-icons@2.0.1:
     resolution: {integrity: sha512-6ktD+DhV6Rz3VtedYvBKKVA2eXF+sAQVaKkKLDSqGUfnhqXl3bj5PPkVTl3VexfTuZy66PmINi8Q6eFnVfRUmA==}
@@ -3729,7 +3729,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vfg@0.0.8(@lezer/common@1.2.2)(@types/sortablejs@1.15.8):
+  vfg@0.0.11(@lezer/common@1.2.2)(@types/sortablejs@1.15.8):
     dependencies:
       '@codemirror/lang-vue': 0.1.3
       '@codemirror/state': 6.4.1
